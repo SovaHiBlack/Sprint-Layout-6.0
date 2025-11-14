@@ -1,0 +1,23 @@
+Оф.сайт программы http://piratery.net/grbv/
+
+Для быстрой отрисовки платы копируем файл "boards.conf" в папку с программой.
+В этом файле одна строчка:
+circle_steps = 24
+
+F9...F12 цветовые схемы
+HOME - TOP
+END - BOTTOM
+
+.GTL top copper
+.GTS top soldermask
+.GTO top silkscreen
+.GTP top paste
+.GBL bottom copper
+.GBS bottom soldermask
+.GBO bottom silkscreen
+.GBP bottom paste
+.GML milling
+.OLN outline
+.OUT outline
+.DRD drill
+.TXT drill
